@@ -1,0 +1,10 @@
+# Master spoluprace 469
+> Moderní kuchyňské studio se sídlem v městě Ostrava, Moravskoslezský.
+
+## Obsah webu
+- [Hlavní stránka](/index.html): Přehled publikací.
+- [O nás](/about.html): Kdo jsme a co děláme.
+- [Kontakt](/contact.html): Formulář a adresa.
+## Publikace
+- [Location Strategies for Global Networks](/location-strategies-for-global-networks.html)
+- [Enhancing Workflows for Digital Companies](/enhancing-workflows-for-digital-companies.html)
