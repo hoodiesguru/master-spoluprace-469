@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt | Master spoluprace 469</title>
+    <meta name="description" content="Máte dotazy k našemu projektu Master spoluprace 469? Kontaktujte nás pomocí níže uvedeného formuláře nebo telefonu.">
+    <meta name="geo.region" content="CZ" />
+    <meta name="geo.placename" content="Ostrava" />
+    <meta name="geo.position" content="49.8209;18.2625" />
+    <meta name="ICBM" content="49.8209, 18.2625" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <div class="main-content" style="max-width: 800px;">
+            <nav style="display: flex; gap: 15px; margin-bottom: 25px; border-bottom: 1px solid var(--nwhml); padding-bottom: 10px; overflow-x: auto; flex-wrap: wrap;">
+            <a href="index.html">Domů</a>
+            <a href="location-strategies-for-global-networks.html">Článek</a>
+            <a href="about.html">O nás</a>
+            <a href="contact.html">Kontakt</a>
+            <a href="privacy.html">Ochrana soukromí</a>
+        </nav>
+            <h1>Kontakt</h1>
+            <p>Máte dotazy k našemu projektu Master spoluprace 469? Kontaktujte nás pomocí níže uvedeného formuláře nebo telefonu.</p>
+            <p><strong>Telefon:</strong> +420 596 555 789<br><strong>Adresa:</strong> Ostrava, Moravskoslezský, 702 00</p>
+            <form action=/form-submit method="POST">
+                <input type="text" name="name" placeholder="{loc_data['contact_name_placeholder']}" required>
+                <input type="email" name="email" placeholder="{loc_data['contact_email_placeholder']}" required>
+                <textarea name="message" placeholder="{loc_data['contact_msg_placeholder']}" rows="5" required></textarea>
+                <button type="submit">{loc_data['contact_submit']}</button>
+            </form>
+            <footer>
+                <p>&copy; {time.strftime('%Y')} {biz_name}. {loc_data['rights_reserved']}</p>
+            </footer>
+        </div>
+        
+</body>
+</html>
