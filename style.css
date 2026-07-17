@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabinet+Grotesk:wght@700&family=Merriweather+Sans:wght@400;600&display=swap');
+
+:root {
+    --zqvxz: hsl(280, 15%, 97%);
+    --uixua: hsl(280, 15%, 100%);
+    --dsidl: hsl(280, 10%, 15%);
+    --nkcqy: hsl(280, 10%, 45%);
+    --votuo: hsl(280, 65%, 38%);
+    --rtick: hsl(100, 65%, 45%);
+    --nwhml: hsl(280, 15%, 88%);
+    --euryb: 6px;
+    --zcnza: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --nbbfi: 'Cabinet Grotesk', sans-serif;
+    --viprn: 'Merriweather Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--zqvxz);
+    color: var(--dsidl);
+    font-family: var(--viprn);
+    line-height: 1.7;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+a {
+    color: var(--votuo);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: var(--rtick);
+    text-decoration: underline;
+}
+
+.main-content {
+    width: 100%;
+    max-width: 900px;
+    background: var(--uixua);
+    border: 1px solid var(--nwhml);
+    border-radius: var(--euryb);
+    padding: 40px;
+    box-shadow: var(--zcnza);
+    margin: auto;
+}
+
+h1, h2, h3 {
+    font-family: var(--nbbfi);
+    margin-bottom: 20px;
+    color: var(--dsidl);
+}
+
+h1 {
+    font-size: 2.5rem;
+    border-bottom: 3px solid var(--votuo);
+    padding-bottom: 12px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1.05rem;
+}
+
+ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+input, textarea, button {
+    padding: 12px;
+    border: 1px solid var(--nwhml);
+    border-radius: var(--euryb);
+    font-family: var(--viprn);
+    font-size: 1rem;
+    background: var(--zqvxz);
+    color: var(--dsidl);
+}
+
+button {
+    background: var(--votuo);
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+button:hover {
+    background: var(--rtick);
+}
+
+footer {
+    margin-top: 40px;
+    border-top: 1px solid var(--nwhml);
+    padding-top: 20px;
+    font-size: 0.9rem;
+    color: var(--nkcqy);
+    text-align: center;
+}
